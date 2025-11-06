@@ -14,3 +14,98 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+frontend/
+├─ listing-subdomain/
+│  ├─ .env/
+│  ├─ public/
+│  │  └─ vite.svg
+│  ├─ src/
+│  │  ├─ assets/
+│  │  │  └─ react.svg
+│  │  ├─ components/
+│  │  ├─ pages/
+│  │  │  └─ Listing/
+│  │  ├─ services/
+│  │  ├─ App.css
+│  │  ├─ App.jsx
+│  │  ├─ index.css
+│  │  └─ main.jsx
+│  ├─ .gitignore
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ README.md
+│  └─ vite.config.js
+├─ main-site/
+│  ├─ .env/
+│  ├─ public/
+│  │  ├─ images/
+│  │  │  ├─ Hero-section_image1.webp
+│  │  │  ├─ Hero-section_image2.webp
+│  │  │  ├─ Hero-section_image3.webp
+│  │  │  └─ Mohh logo.png
+│  │  └─ vite.svg
+│  ├─ src/
+│  │  ├─ assets/
+│  │  │  └─ react.svg
+│  │  ├─ components/
+│  │  │  ├─ Footer/
+│  │  │  │  ├─ Footer.css
+│  │  │  │  └─ Footer.jsx
+│  │  │  ├─ Header/
+│  │  │  │  ├─ Header.css
+│  │  │  │  └─ Header.jsx
+│  │  │  └─ Hero-section/
+│  │  │     ├─ HeroSection.css
+│  │  │     └─ HeroSection.jsx
+│  │  ├─ context/
+│  │  ├─ hooks/
+│  │  ├─ pages/
+│  │  │  ├─ Blogs/
+│  │  │  ├─ Design/
+│  │  │  └─ Home/
+│  │  │     ├─ Home.css
+│  │  │     └─ Home.jsx
+│  │  ├─ services/
+│  │  ├─ App.css
+│  │  ├─ App.jsx
+│  │  ├─ index.css
+│  │  └─ main.jsx
+│  ├─ .gitignore
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ README.md
+│  └─ vite.config.js
+├─ shared/
+│  └─ src/
+│     ├─ constants/
+│     ├─ ui-components/
+│     └─ utils/
+├─ shop-subdomain/
+│  ├─ .env/
+│  ├─ public/
+│  │  └─ vite.svg
+│  ├─ src/
+│  │  ├─ assets/
+│  │  │  └─ react.svg
+│  │  ├─ components/
+│  │  ├─ pages/
+│  │  │  └─ Shop/
+│  │  ├─ services/
+│  │  ├─ App.css
+│  │  ├─ App.jsx
+│  │  ├─ index.css
+│  │  └─ main.jsx
+│  ├─ .gitignore
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ README.md
+│  └─ vite.config.js
+├─ package-lock.json
+└─ package.json
