@@ -19,9 +19,13 @@ It’s architected as a **modular multi-app frontend** setup to allow scalabilit
 **File/Folder Structure**
 
 frontend/
+
 ├─ listing-subdomain/
+
 ├─ main-site/
+
 ├─ shop-subdomain/
+
 └─ shared/
 
 
