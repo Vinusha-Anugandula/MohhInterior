@@ -30,12 +30,19 @@ frontend/
  Category                         Technology 
 
  Frontend Framework   :            React 19
+ 
  Build Tool           :           Vite
+ 
  Package Manager      :           npm 
+ 
  Language             :            JavaScript (ES Modules) 
+ 
  Linting              :            ESLint 
+ 
  Icons                :            react-icons 
+ 
  Version Control      :            Git & GitHub 
+ 
 
  **Setup Instructions**
  
