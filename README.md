@@ -20,102 +20,9 @@ It’s architected as a **modular multi-app frontend** setup to allow scalabilit
 
 frontend/
 ├─ listing-subdomain/
-│  ├─ .env/
-│  ├─ public/
-│  │  └─ vite.svg
-│  ├─ src/
-│  │  ├─ assets/
-│  │  │  └─ react.svg
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  │  └─ Listing/
-│  │  ├─ services/
-│  │  ├─ App.css
-│  │  ├─ App.jsx
-│  │  ├─ index.css
-│  │  └─ main.jsx
-│  ├─ .gitignore
-│  ├─ eslint.config.js
-│  ├─ index.html
-│  ├─ package-lock.json
-│  ├─ package.json
-│  ├─ README.md
-│  └─ vite.config.js
 ├─ main-site/
-│  ├─ .env/
-│  ├─ .vite/
-│  │  └─ deps/
-│  │     ├─ _metadata.json
-│  │     └─ package.json
-│  ├─ public/
-│  │  ├─ images/
-│  │  │  ├─ Hero-section_image1.webp
-│  │  │  ├─ Hero-section_image2.webp
-│  │  │  ├─ Hero-section_image3.webp
-│  │  │  └─ Mohh logo.png
-│  │  └─ vite.svg
-│  ├─ src/
-│  │  ├─ assets/
-│  │  │  └─ react.svg
-│  │  ├─ components/
-│  │  │  ├─ Footer/
-│  │  │  │  ├─ Footer.css
-│  │  │  │  └─ Footer.jsx
-│  │  │  ├─ Header/
-│  │  │  │  ├─ Header.css
-│  │  │  │  └─ Header.jsx
-│  │  │  └─ Hero-section/
-│  │  │     ├─ HeroSection.css
-│  │  │     └─ HeroSection.jsx
-│  │  ├─ context/
-│  │  ├─ hooks/
-│  │  ├─ pages/
-│  │  │  ├─ Blogs/
-│  │  │  ├─ Design/
-│  │  │  └─ Home/
-│  │  │     ├─ Home.css
-│  │  │     └─ Home.jsx
-│  │  ├─ services/
-│  │  ├─ App.css
-│  │  ├─ App.jsx
-│  │  ├─ index.css
-│  │  └─ main.jsx
-│  ├─ .gitignore
-│  ├─ eslint.config.js
-│  ├─ index.html
-│  ├─ package-lock.json
-│  ├─ package.json
-│  ├─ README.md
-│  └─ vite.config.js
-├─ shared/
-│  └─ src/
-│     ├─ constants/
-│     ├─ ui-components/
-│     └─ utils/
 ├─ shop-subdomain/
-│  ├─ .env/
-│  ├─ public/
-│  │  └─ vite.svg
-│  ├─ src/
-│  │  ├─ assets/
-│  │  │  └─ react.svg
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  │  └─ Shop/
-│  │  ├─ services/
-│  │  ├─ App.css
-│  │  ├─ App.jsx
-│  │  ├─ index.css
-│  │  └─ main.jsx
-│  ├─ .gitignore
-│  ├─ eslint.config.js
-│  ├─ index.html
-│  ├─ package-lock.json
-│  ├─ package.json
-│  ├─ README.md
-│  └─ vite.config.js
-├─ package-lock.json
-└─ package.json
+└─ shared/
 
 
 ** Tech Stack**
@@ -163,6 +70,7 @@ npm run dev
 Access it locally at:
 http://localhost:5173
 
+the header,HeroSection and Footer are in main-site/components and then imported to folders where it requires
 
 
 
