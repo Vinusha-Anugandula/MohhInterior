@@ -6,16 +6,16 @@ function Header() {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <img src="/images/Mohh logo.png" alt="MOHH Interiors Logo" />
+          <img src="/images/Mohh logo.png" alt="Mohh Interiors Logo" />
         </div>
 
         <nav className="navbar">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Listing</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Blogs</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#Listing">Listing</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#shop">Shop</a></li>
           </ul>
         </nav>
 
@@ -29,8 +29,8 @@ function Header() {
 
 export default Header;
 
+// Header Scroll Effect to see the 
 
-// for adding header scrolling effect to change to black color when scrolling
 // import React, { useEffect } from "react";
 // import "./Header.css";
 
@@ -77,4 +77,3 @@ export default Header;
 // }
 
 // export default Header;
-

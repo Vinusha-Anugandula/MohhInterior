@@ -43,10 +43,10 @@ function Footer() {
         {/* Contact */}
         <div className="footer-section contact">
           <h3>Contact Us</h3>
-          <p><FaPhoneAlt className="footer-icon" /> +91 9989621171</p>
-          <p><FaEnvelope className="footer-icon" /> Get a Quote</p>
+          <p><FaPhoneAlt className="icon" /> +91 9989621171</p>
+          <p><FaEnvelope className="icon" /> Get a Quote</p>
           <p>
-            <FaMapMarkerAlt className="footer-icon" /> Flat no.3, First Floor, H.no.
+            <FaMapMarkerAlt className="icon" /> Flat no.3, First Floor, H.no.
             6-3-347/22/2 Ishwarya Nilayam, Dwarakpuri Colony, Irram Manzil
             Colony, Punjagutta, Hyderabad, Telangana 500082
           </p>

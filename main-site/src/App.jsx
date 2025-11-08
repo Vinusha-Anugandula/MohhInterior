@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
-        <Footer />  
+      <Footer />  
     </>
   );
 }

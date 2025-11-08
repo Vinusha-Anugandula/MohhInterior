@@ -1,19 +1,13 @@
-# React + Vite
+MOHH- INTERIORS 
+**Mohh Interior Project** is a scalable multi-domain frontend ecosystem that powers:
+ **Main Site** – the brand and inspiration hub  
+ **Shop Subdomain** – the commerce interface  
+ **Listing Subdomain** – curated design listings  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Each subdomain operates independently while sharing UI components, utilities, and constants from a central `shared/` library.  
+This design ensures **speed, consistency, and maintainability** across all user experiences.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+File Tree Path
 
 frontend/
 ├─ listing-subdomain/
@@ -109,3 +103,53 @@ frontend/
 │  └─ vite.config.js
 ├─ package-lock.json
 └─ package.json
+
+Tech Stack :
+Category                         Technology used
+ Frontend Framework :            React 19
+ Build Tool         :             Vite
+ Language           :            JavaScript (ES Modules)
+ Package Manager    :            npm
+ Icons              :            React Icons
+ Linting            :             ESLint  
+ Version Control    :            Git + GitHub 
+ Deployment         :            Vercel
+
+
+Key Highlights
+ **Independent Builds**: Each subdomain is a standalone Vite app.  
+**Shared Codebase**: Common assets live in `frontend/shared/`.  
+ **Fast Iteration**: Vite ensures lightning-fast development cycles.
+
+ Setup:
+
+  Prerequisites:
+    Node.js v18+  
+    npm  
+    Git 
+
+Installation:
+Clone the repository:
+```bash
+git clone <your-repo-url>
+cd frontend
+
+Install dependencies:
+npm install
+
+Create React + Vite Setup (if needed):
+npm create vite@latest
+# Choose: React → JavaScript
+# Confirm "Yes" for prompts
+
+Add icons:
+npm install react-icons
+
+Run the App:
+Choose your subdomain directory
+cd main-site
+npm run dev
+
+
+
+
